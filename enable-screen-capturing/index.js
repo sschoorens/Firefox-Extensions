@@ -8,7 +8,7 @@ var configToReferListOfAllowedDomains = 'media.getusermedia.screensharing.allowe
 var configToEnableScreenCapturing = 'media.getusermedia.screensharing.enabled';
 
 // replace your own domains with below array
-var arrayOfMyOwnDomains = ['webrtc-experiment.com', 'www.webrtc-experiment.com', 'localhost', '127.0.0.1'];
+var arrayOfMyOwnDomains = ['localhost', '127.0.0.1', 'ubicast.net', '*.ubicast.net', 'ubicast.eu', '*.ubicast.eu', 'ubicast.tv', '*.ubicast.tv']
 
 // e.g. if 127.0.0.1 or localhost is already allowed by anyone else
 var listOfSimilarAlreadyAllowedDomains = [];
