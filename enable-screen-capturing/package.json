@@ -1,13 +1,12 @@
 {
   "title": "Enable Screen Capturing in Firefox",
-  "name": "enable-screen-capturing",
-  "id": "{3ef085b0-fe60-11df-8cff-0800200c9a66}",
-  "version": "1.0.008",
-  "description": "This firefox extension enables screen capturing support in Firefox for https://www.webrtc-experiment.com pages.",
+  "name": "enable-ubicast-screen-capturing",
+  "version": "1.0.009a",
+  "description": "This firefox extension enables screen capturing support in Firefox for *.ubicast.[eu|net|tv] pages.",
   "main": "index.js",
-  "author": "Muaz Khan <muazkh@gmail.com>",
+  "author": "Muaz Khan <muazkh@gmail.com>; Forked by Stephane Schoorens for ubicast",
   "engines": {
-    "firefox": ">=38.0a1"
+    "firefox": ">=45.0"
   },
   "license": "MIT",
   "permissions": {
