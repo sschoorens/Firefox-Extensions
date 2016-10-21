@@ -1,6 +1,6 @@
 {
   "title": "Webstudio extension",
-  "name": "webstudio-firefox-ubicast",
+  "name": "enable-ubicast-screen-capturing",
   "version": "1.0.009b",
   "description": "This firefox extension enables screen capturing support in Firefox for *.ubicast.[eu|net|tv] pages.",
   "main": "index.js",
