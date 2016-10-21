@@ -8,7 +8,7 @@ var configToReferListOfAllowedDomains = 'media.getusermedia.screensharing.allowe
 var configToEnableScreenCapturing = 'media.getusermedia.screensharing.enabled';
 
 // replace your own domains with below array
-var arrayOfMyOwnDomains = ['localhost', '127.0.0.1', 'ubicast.net', '*.ubicast.net', 'ubicast.eu', '*.ubicast.eu', 'ubicast.tv', '*.ubicast.tv']
+var arrayOfMyOwnDomains = ['ubicast.net', '*.ubicast.net', 'ubicast.eu', '*.ubicast.eu', 'ubicast.tv', '*.ubicast.tv'];
 
 // e.g. if 127.0.0.1 or localhost is already allowed by anyone else
 var listOfSimilarAlreadyAllowedDomains = [];
@@ -101,7 +101,9 @@ var pageMod = mod.PageMod({
 
             worker.port.emit('is-screen-capturing-enabled-response', {
                 isScreenCapturingEnabled: isScreenCapturingEnabled,
-                domains: domains
+                domains: domains,
+                confirmMessageCurrent: require("sdk/l10n").get('confirmMessageCurrent'),
+                confirmMessage: require("sdk/l10n").get('confirmMessage')
             });
         });
     }
